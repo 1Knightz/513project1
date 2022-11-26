@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Culinary Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery-1.11.0.min.js"></script>
+<link href='http://fonts.useso.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Bitter:400,700,400italic' rel='stylesheet' type='text/css'>
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!--start-smoth-scrolling-->
+<!--start-top-nav-script-->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+<!--End-top-nav-script-->
+</head>
+<body>
+<!--start-header-->
+	<div class="header" id="home">
+		<div class="container">
+			<div class="header-mian">
+			<div class="head">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.jpg" alt="" /></a>
+				</div>
+				<div class="call">
+					<ul>
+						<li><p>CALL 18667423903</p></li>
+						<li><p class="msg"><a href="#"><img src="images/msg.png" alt=""/></a></p></li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="navigation">
+				<div class="nav-shadow"> 
+				 	<span class="menu">MENU</span> 
+					<ul class="navig">
+						<li class="active"><a href="#" accesskey="1" title="">Home</a></li>
+				<li><a href="aboutus.html" accesskey="2" title="">About US</a></li>
+				<li><a href="upload.html" accesskey="3" title="">Careers </a></li>
+				<li><a href="orderonline.php" accesskey="4" title="">Order online </a></li>
+				<li><a href="contactus.html" accesskey="5" title="">Contact Us</a></li>
+				<li><a href="create.php" accesskey="6" title="">Register</a></li>
+					</ul>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>	
+	<!-- script-for-menu -->
+		 <script>
+				$("span.menu").click(function(){
+					$(" ul.navig").slideToggle("slow" , function(){
+					});
+				});
+		 </script>
+	<!-- script-for-menu -->
+	<!--start-banner-->
+	<div class="banner">
+		<div class="container">
+			<div class="banner-mian">
+				<div class="banner-top">
+					<h1>WE OFFER THE BEST BREAD DISHES WITH HOME DELIVERY</h1>
+				</div>
+				<div class="banner-bottom">
+					<div class="banner-left">
+						<div class="b-left">
+							<p><span>B</span>The Luca’s bread offers a large amount of choice and high quality of Sourdough Bread and Desserts.
+								We lovingly make a fine selection of delicious and special breads, sandwiches and other desserts 
+								in our Bakery. We also have many types of drinks and several combos. We are trying to focus 
+								on the culture thing and healthy diet.</p>
+						</div>
+						<div class="tool">
+							<a class="tooltips" href="pricing.html">
+								<span>QUICK ORDER</span></a>
+						</div>
+					</div>
+					<div class="banner-right">
+						<img src="https://ts3.cn.mm.bing.net/th?id=AMMS_4dbf714e002cf5b8de93d35411fa12b3&w=197&h=264&rs=2&qlt=80&o=6&cdv=1&dpr=1.1&pid=16.1 alt=""/>
+						<span></span>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--end-banner-->
+	<!--start-need-->
+	<div class="need">
+		<div class="container">
+			<div class="need-mian">
+				<div class="col-md-9 need-left">
+					<h3>Do You Need a Quick order?</h3>
+					<p>Bread is one of the greatest foods invented by humans</p>
+				</div>
+				<div class="col-md-3 need-right">
+					<a href="#">Get Now!</a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--end-need-->	
+	<!--start-resolve-->	
+	<div class="resolve">
+		<div class="container">
+			<div class="resolve-main">
+				<div class="col-md-8 resolve-left">
+					<h3>More about us</h3>
+					<div class="resolve-bottom">
+						<div class="col-md-4 res-left">
+							<div class="res-one">
+								<h4>RECIPES</h4>
+								<p>Be inspired with our delicious recipes. They are sure to be an easy hit amongst family and friends.</p>
+							</div>
+						</div>
+						<div class="col-md-4 res-left">
+							<div class="res-one">
+								<h4>About Luca’s Loaves</h4>
+								<p>Since our first store , our bakers have been committed to ensuring every loaf, every roll and every bun is a delight to bake,
+									a delight to eat and delivered through a delightful customer experience.</p>
+							</div>
+						</div>
+						<div class="col-md-4 res-left">
+							<div class="res-one">
+								<h4>SourDough Making classes</h4>
+								<p>Our experienced bakery expert will show you how to make best Sourdough bread. 
+									Join us on  First Saturday of every month.
+									9 am to 5 pm with lunch provided. Learn to make your own bread $350 plus GST.</p>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="col-md-4 resolve-right">
+					<h3>If you want to know more</h3>
+								<div class="r-btn">
+									<a href="#">Read more</a>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+			 
+</body>
+</html>
+<style>
+	#demo{
+	 position: fixed;
+		left: 0px;
+		bottom: 0px;
+		width: 100%;
+		text-align: center;
+		height: 50px;
+		background-color: #eee;
+		z-index: 9999;
+	}
+	</style>
+	 
+	</head>
+	<body>
+	<footer id="demo">Cheng Jiahao Knight 203190703</footer>
+	</body>
+	</html>
+	<div class="footer">
+		<div class="container">
+			<div class="footer-top">
+				<div class="col-md-3 footer-top-left ftr-one">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="pricing.html">Gallery</a></li>
+						<li><a href="staff.html">Staff</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="404.html">Online Order</a></li>
+						<li><a href="#">Student Plans</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 footer-top-left ftr-two">
+					<ul>
+						<li><a href="#">Terms of Use</a></li>
+						<li><a href="#">Disclaimer</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 footer-top-left ftr-tre">
+					<ul>
+						<li><a href="#">Facebook</a></li>
+						<li><a href="#">Twitter</a></li>
+						<li><a href="#">You Tube</a></li>
+						<li><a href="#">Our Blog</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 footer-top-left">
+					<p>18667423903</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--end-footer-->	
+	<!--start-footer-bottom-->	
+	<div class="footer-bottom">
+		<div class="container">
+			<div class="footer-text">
+			
+			</div>
+		</div>
+		<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</div>
+	<!--end-footer-bottom-->				 
+</body>
+</html>
